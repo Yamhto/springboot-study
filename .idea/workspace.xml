@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="279fa49d-a7ec-4d6a-b13f-2f34b57cd457" name="Default Changelist" comment="" />
+    <list default="true" id="279fa49d-a7ec-4d6a-b13f-2f34b57cd457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/yamhto/quartz/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/resources/quartz-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Adjustsalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Appraise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Employeeec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Employeeremove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Employeetrain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Empsalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Hr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/HrRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Joblevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/MenuRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Msgcontent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Nation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Oplog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Politicsstatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/entity/Sysmsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/AdjustsalaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/AppraiseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/EmployeeecMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/EmployeeremoveMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/EmployeetrainMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/EmpsalaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/HrMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/HrRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/JoblevelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/MenuRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/MsgcontentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/NationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/OplogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/PoliticsstatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/PositionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/SalaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/mapper/SysmsgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/AdjustsalaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/AppraiseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/DepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/EmployeeecService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/EmployeeremoveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/EmployeetrainService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/EmpsalaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/HrRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/HrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/JoblevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/MenuRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/MsgcontentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/NationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/OplogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/PoliticsstatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/PositionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/SalaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/SysmsgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/AdjustsalaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/AppraiseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/EmployeeecServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/EmployeeremoveServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/EmployeetrainServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/EmpsalaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/HrRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/HrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/JoblevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/MenuRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/MenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/MsgcontentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/NationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/OplogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/PoliticsstatusServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/PositionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/SalaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisPlus-generater/src/main/java/com/yamhto/mybatisPlus/service/impl/SysmsgServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +133,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -219,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576825393268" />
-    <state width="1877" height="573" key="GridCell.Tab.0.bottom" timestamp="1576825142422">
+    <state width="1877" height="573" key="GridCell.Tab.0.bottom" timestamp="1576831260522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576825142422" />
-    <state width="1877" height="573" key="GridCell.Tab.0.center" timestamp="1576825142422">
+    <state width="1877" height="573" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576831260522" />
+    <state width="1877" height="573" key="GridCell.Tab.0.center" timestamp="1576831260521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576825142422" />
-    <state width="1877" height="573" key="GridCell.Tab.0.left" timestamp="1576825142422">
+    <state width="1877" height="573" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576831260521" />
+    <state width="1877" height="573" key="GridCell.Tab.0.left" timestamp="1576831260521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576825142422" />
-    <state width="1877" height="573" key="GridCell.Tab.0.right" timestamp="1576825142422">
+    <state width="1877" height="573" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576831260521" />
+    <state width="1877" height="573" key="GridCell.Tab.0.right" timestamp="1576831260521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="573" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576825142422" />
+    <state width="1877" height="573" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576831260521" />
     <state width="1877" height="289" key="GridCell.Tab.1.bottom" timestamp="1576823870537">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -251,14 +347,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576823870537" />
-    <state x="440" y="99" key="SettingsEditor" timestamp="1576812232418">
+    <state x="440" y="99" key="SettingsEditor" timestamp="1576827040707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576812232418" />
-    <state x="330" y="225" key="new project wizard" timestamp="1576822007719">
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576827040707" />
+    <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576826326349">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="330" y="225" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1576822007719" />
+    <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576826326349" />
+    <state x="330" y="225" key="new project wizard" timestamp="1576827019098">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="330" y="225" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1576827019098" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_study$Application.ic" NAME="Application Coverage Results" MODIFIED="1576810126612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

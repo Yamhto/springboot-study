@@ -4,6 +4,8 @@ out/
 classes/
 *.depend
 
+com/yamhto/mybatisPlus
+
 ### STS ###
 .apt_generated
 .classpath
