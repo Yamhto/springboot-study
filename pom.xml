@@ -11,6 +11,8 @@
         <module>api</module>
         <module>mybatisPlus-generater</module>
         <module>quartz</module>
+        <module>log</module>
+        <module>shiro</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -31,6 +33,7 @@
         <mybatis.version>3.1.0</mybatis.version>
         <druid.version>1.1.6</druid.version>
         <guava.version>25.0-jre</guava.version>
+        <shiro.version>1.4.0</shiro.version>
     </properties>
 
     <dependencyManagement>
@@ -68,6 +71,11 @@
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
@@ -76,6 +84,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
@@ -91,6 +104,19 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>corp nexus-releases</name>
+            <url>http://119.23.230.200:8181/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <name>corp nexus-snapshot</name>
+            <url>http://119.23.230.200:8181/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -101,6 +127,8 @@
                 </configuration>
             </plugin>
         </plugins>
+
+
     </build>
 
 </project>

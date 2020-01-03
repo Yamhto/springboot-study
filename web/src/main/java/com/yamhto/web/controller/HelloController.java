@@ -2,7 +2,9 @@ package com.yamhto.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yamhto.api.DubboServiceApi;
+import com.yamhto.api.schedule.IQuartzService;
 import com.yamhto.redis.config.redisConfig;
+import org.quartz.SchedulerException;
 import org.redisson.api.RBucket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +26,9 @@ public class HelloController {
     @Reference
     private DubboServiceApi dubboService;
 
+    @Reference
+    public IQuartzService service;
+
     @RequestMapping("/hello")
     public String hello() {
         return "hello";
@@ -40,8 +45,22 @@ public class HelloController {
     }
 
     @RequestMapping("/dubbo")
-    public String dubbo(){
+    public String dubbo() {
         dubboService.service();
         return "dubbo";
     }
+
+    @RequestMapping(value = "/job")
+    public String scheduleJob() {
+        try {
+            service.addJob("job", "group", "0/5 * * * * ?");
+            return "启动定时器成功";
+        } catch (SchedulerException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "启动定时器失败";
+    }
+
 }

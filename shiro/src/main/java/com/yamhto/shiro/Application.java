@@ -1,18 +1,18 @@
-package com.yamhto.quartz;
+package com.yamhto.shiro;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @author yamhto
  * @className: Application.java
- * @package com.yamhto.quartz
- * @description: quartz
- * @date 2019/12/20 15:31
+ * @package com.yamhto.shiro
+ * @description:
+ * @date 2019/12/25 18:36
  */
 @SpringBootApplication
-@EnableTransactionManagement
+@MapperScan(basePackages = {"com.yamhto.shiro.mapper"})
 public class Application {
 
     public static void main(String[] args) {
