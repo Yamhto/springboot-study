@@ -1,0 +1,14 @@
+nacos:
+  config:
+    server-addr: 119.23.230.200:8087
+spring:
+  application:
+    name: nacos-producer
+dubbo:
+  application:
+    name: nacos-producer
+  registry:
+    address: nacos://119.23.230.200:8087
+  protocol:
+    name: dubbo
+    port: 20880

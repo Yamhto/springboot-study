@@ -7,16 +7,25 @@ spring:
     port: 6379
     database: 0
 
+#dubbo:
+#  application:
+#    name:  dubbo-consumer
+#  registry:
+#    address: 119.23.230.200:2181
+#    # 读者请换成自己的zookeeperip
+#    protocol: zookeeper
+#    check: false
+#  monitor:
+#    protocol: register
+#  consumer:
+#    check:  false
+#    timeout: 3000
+
 dubbo:
   application:
-    name:  dubbo-consumer
+    name:  nacos-consumer
   registry:
-    address: 119.23.230.200:2181
-    # 读者请换成自己的zookeeperip
-    protocol: zookeeper
-    check: false
-  monitor:
-    protocol: register
-  consumer:
-    check:  false
-    timeout: 3000
+    address: nacos://119.23.230.200:8087
+  protocol:
+    name: dubbo
+    port: 20880

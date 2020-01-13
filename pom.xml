@@ -5,14 +5,12 @@
     <packaging>pom</packaging>
     <modules>
         <module>web</module>
-        <module>producer</module>
-        <module>consumer</module>
         <module>redis</module>
-        <module>api</module>
         <module>mybatisPlus-generater</module>
         <module>quartz</module>
         <module>log</module>
         <module>shiro</module>
+        <module>dubbo-register-center</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -34,6 +32,8 @@
         <druid.version>1.1.6</druid.version>
         <guava.version>25.0-jre</guava.version>
         <shiro.version>1.4.0</shiro.version>
+        <nacos.version>0.2.1</nacos.version>
+        <dubbo-registry-nacos.version>0.0.1</dubbo-registry-nacos.version>
     </properties>
 
     <dependencyManagement>
@@ -76,7 +76,22 @@
                 <artifactId>shiro-spring</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-starter</artifactId>
+                <version>${nacos.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.alibaba.boot/nacos-config-spring-boot-starter -->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-discovery-spring-boot-starter</artifactId>
+                <version>${nacos.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo-registry-nacos</artifactId>
+                <version>${dubbo-registry-nacos.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

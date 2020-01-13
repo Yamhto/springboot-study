@@ -1,8 +1,9 @@
 package com.yamhto.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.yamhto.api.DubboServiceApi;
-import com.yamhto.api.schedule.IQuartzService;
+import com.yamhto.dubbo.api.DubboServiceApi;
+import com.yamhto.dubbo.api.nacos.NacosServiceApi;
+import com.yamhto.dubbo.api.schedule.IQuartzService;
 import com.yamhto.redis.config.redisConfig;
 import org.quartz.SchedulerException;
 import org.redisson.api.RBucket;
@@ -27,6 +28,9 @@ public class HelloController {
     private DubboServiceApi dubboService;
 
     @Reference
+    private NacosServiceApi nacosService;
+
+    @Reference
     public IQuartzService service;
 
     @RequestMapping("/hello")
@@ -48,6 +52,12 @@ public class HelloController {
     public String dubbo() {
         dubboService.service();
         return "dubbo";
+    }
+
+    @RequestMapping("/nacos")
+    public String nacos() {
+        nacosService.service();
+        return "nacos";
     }
 
     @RequestMapping(value = "/job")
