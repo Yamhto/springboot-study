@@ -11,6 +11,7 @@
         <module>log</module>
         <module>shiro</module>
         <module>dubbo-register-center</module>
+        <module>springboot-Admin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -34,6 +35,7 @@
         <shiro.version>1.4.0</shiro.version>
         <nacos.version>0.2.1</nacos.version>
         <dubbo-registry-nacos.version>0.0.1</dubbo-registry-nacos.version>
+        <springboot-admin.version>2.2.1</springboot-admin.version>
     </properties>
 
     <dependencyManagement>
@@ -91,6 +93,16 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>dubbo-registry-nacos</artifactId>
                 <version>${dubbo-registry-nacos.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${springboot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <version>${springboot-admin.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
