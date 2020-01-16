@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: swagger2-application
+
+server:
+  port: 8083

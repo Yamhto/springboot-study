@@ -12,6 +12,7 @@
         <module>shiro</module>
         <module>dubbo-register-center</module>
         <module>springboot-Admin</module>
+        <module>swagger2</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -36,6 +37,7 @@
         <nacos.version>0.2.1</nacos.version>
         <dubbo-registry-nacos.version>0.0.1</dubbo-registry-nacos.version>
         <springboot-admin.version>2.2.1</springboot-admin.version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
 
     <dependencyManagement>
@@ -103,6 +105,16 @@
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-starter-client</artifactId>
                 <version>${springboot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
