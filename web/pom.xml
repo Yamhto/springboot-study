@@ -49,6 +49,10 @@
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo-registry-nacos</artifactId>
         </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+        </dependency>
     </dependencies>
 
 

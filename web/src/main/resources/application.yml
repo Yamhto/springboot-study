@@ -6,6 +6,10 @@ spring:
     host: 119.23.230.200
     port: 6379
     database: 0
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
 
 #dubbo:
 #  application:
