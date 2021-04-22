@@ -33,7 +33,7 @@
         <mybatis.version>3.1.0</mybatis.version>
         <druid.version>1.1.6</druid.version>
         <guava.version>25.0-jre</guava.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.7.0</shiro.version>
         <nacos.version>0.2.1</nacos.version>
         <dubbo-registry-nacos.version>0.0.1</dubbo-registry-nacos.version>
         <springboot-admin.version>2.2.1</springboot-admin.version>
